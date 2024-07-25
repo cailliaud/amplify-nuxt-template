@@ -12,5 +12,6 @@ export default defineNuxtConfig({
     options: {
       hashMode: true // Avoid to configure redirect for pages on nginx or any hosting server
     }
-  }
+  },
+  modules: ['@nuxt/ui']
 })
